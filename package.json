@@ -1,9 +1,15 @@
 {
-  "name": "react-library-starter",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@zhitkov/react-library-starter",
+  "version": "0.1.2",
+  "description": "UI components for React.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +17,11 @@
     "url": "git+https://github.com/zhitkovkostya/react-library-starter.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "<DEV_NAME>",
+    "email": "<DEV_EMAIL>",
+    "url": "<DEV_WEBSITE>"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhitkovkostya/react-library-starter/issues"
@@ -19,13 +29,12 @@
   "homepage": "https://github.com/zhitkovkostya/react-library-starter#readme",
   "devDependencies": {
     "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.8",
+    "@types/styled-components": "5.1.26",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "styled-components": "5.3.6",
     "typescript": "4.8.4"
   },
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.0.0"
   }
 }
