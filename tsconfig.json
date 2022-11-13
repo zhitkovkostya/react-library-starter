@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "module": "ES2015",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "es2016"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
