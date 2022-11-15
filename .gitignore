@@ -8,6 +8,3 @@
 # npm
 node_modules/
 dist
-
-# docs
-docs-build/
