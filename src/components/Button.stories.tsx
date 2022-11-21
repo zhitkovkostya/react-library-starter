@@ -1,9 +1,11 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import { Button } from './Button'
 
-export default {
+const Meta: ComponentMeta<typeof Button> = {
   title: 'Components/Button',
   component: Button
-} as ComponentMeta<typeof Button>
+}
 
 export const Basic: ComponentStory<typeof Button> = () => <Button>Button</Button>
+
+export default Meta
