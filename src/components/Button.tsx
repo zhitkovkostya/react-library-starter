@@ -11,7 +11,5 @@ const StyledButton = styled.button`
 
 export const Button = ({
   children,
-  onClick = () => alert('Clicked')
-}: ButtonProps) => (
-  <StyledButton onClick={onClick}>{children}</StyledButton>
-)
+  onClick = () => alert('Clicked'),
+}: ButtonProps) => <StyledButton onClick={onClick}>{children}</StyledButton>

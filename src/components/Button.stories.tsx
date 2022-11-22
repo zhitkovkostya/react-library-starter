@@ -3,9 +3,11 @@ import { Button } from './Button'
 
 const Meta: ComponentMeta<typeof Button> = {
   title: 'Components/Button',
-  component: Button
+  component: Button,
 }
 
-export const Basic: ComponentStory<typeof Button> = () => <Button>Button</Button>
+export const Basic: ComponentStory<typeof Button> = () => (
+  <Button>Button</Button>
+)
 
 export default Meta
