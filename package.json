@@ -11,7 +11,7 @@
     "prebuild": "rm -rf ./dist",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
     "format": "prettier --write ./src/**/*.{ts,tsx} --ignore-path .gitignore",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o docs-build",
